@@ -14,7 +14,7 @@
 /*banner 3*/
 
 .banner3{
-    background-image: url("/img/banner3.jpg");
+    background-image: url("../img/banner3.jpg");
     width: 100vw;
     height: 60vh;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@
 
             .bannerInferior#{$team}{
 
-                background-image: url("/img/#{$team}.jpg");
+                background-image: url("../img/#{$team}.jpg");
                 flex: 1;
                 background-size: cover;
                 background-position-x: center;
