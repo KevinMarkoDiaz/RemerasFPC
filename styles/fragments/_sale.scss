@@ -1,0 +1,169 @@
+
+.titulo--sale{
+    display: flex;
+    justify-content: space-around;
+ 
+
+    .sale--parrafo{
+        margin:1rem 0px ;
+
+        display: flex;
+    
+        .parrafo--sale{
+            margin:1rem 0.3rem 1rem 5rem ;
+            padding: 0px 30px;
+            background-color: #000;
+            color: #fff;
+            font-family:$fuente_principal;
+            font-size: 2rem;
+            display: inline-block;
+            width: 100%;
+            transform: skewX(-28deg);
+            justify-content: center; 
+            text-align: center;
+            font-weight: 900;       
+        
+        }
+        .parrafo--sale2{
+            margin:1rem 0.3rem 1rem 0rem ;
+            padding: 0px 5px;
+            background-color: #000;
+            color: #fff;
+            font-family:$fuente_principal;
+            font-size: 3rem;
+            display: inline-block;
+            width: 1%;
+            transform: skewX(-28deg);
+        
+        }
+        .parrafo--saleA{
+            margin:1rem 0.3rem 1rem 0rem ;
+            padding: 10px 3px;
+            background-color: rgb(255, 238, 0);
+            color: rgb(255, 255, 255);
+            font-family:$fuente_principal;
+            font-size: 1rem;
+            display: inline-block;
+            width: 5%;
+            transform: skewX(-28deg);
+            font-weight: 700;
+
+        
+        }.parrafo--saleAZ{
+            margin:1rem 0.3rem 1rem 0rem ;
+            padding: 10px 3px;
+            background-color: rgb(31, 3, 189);
+            color: rgb(255, 255, 255);
+            font-family:$fuente_principal;
+            font-size: 1rem;
+            display: inline-block;
+            width: 5%;
+            transform: skewX(-28deg);
+            font-weight: 700;
+
+        
+        }.parrafo--saleR{
+            margin:1rem 0.3rem 1rem 0rem ;
+            padding: 10px 3px;
+            background-color: rgb(196, 0, 0);
+            color: rgb(255, 255, 255);
+            font-family:$fuente_principal;
+            font-size: 1rem;
+            display: inline-block;
+            width: 5%;
+            transform: skewX(-28deg);
+            font-weight: 700;
+        
+        }
+    }
+    
+    
+    
+}
+
+.titulo--sale2{
+    display: flex;
+    justify-content: space-around;
+ 
+
+    .sale--parrafo2{
+        margin:1rem 0px ;
+
+        display: flex;
+    
+        .parrafo--sale2{
+            margin:1rem 0.3rem 1rem 5rem ;
+            padding: 0px 30px;
+            background-color: #000;
+            color: #fff;
+            font-family:$fuente_principal;
+            font-size: 2rem;
+            display: inline-block;
+            width: 100%;
+            transform: skewX(-28deg);
+            justify-content: center; 
+            text-align: center;
+            font-weight: 900;       
+        
+        }
+        .parrafo--sale22{
+            margin:1rem 0.3rem 1rem 0rem ;
+            padding: 0px 5px;
+            background-color: #000;
+            color: #fff;
+            font-family:$fuente_principal;
+            font-size: 3rem;
+            display: inline-block;
+            width: 1%;
+            transform: skewX(-28deg);
+        
+        }
+    
+    } 
+    
+}
+@media only screen and (min-width: 320px) and(max-width: 425px) {
+
+    .titulo--sale2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+     
+    
+        .sale--parrafo2{
+            margin:1rem 2rem ;
+    
+            display: flex;
+        
+            .parrafo--sale2{
+                margin:1rem 0.4rem ;
+                padding: 0px 30px;
+                background-color: #000;
+                color: #fff;
+                font-family:$fuente_principal;
+                font-size: 1.5rem;
+                display: inline-block;
+                width: 100%;
+                transform: skewX(-28deg);
+                justify-content: center; 
+                text-align: center;
+                font-weight: 900;       
+            
+            }
+            .parrafo--sale22{
+                margin:1rem 0.3rem 1rem 0rem ;
+                padding: 0px 5px;
+                background-color: #000;
+                color: #fff;
+                font-family:$fuente_principal;
+                font-size: 1rem;
+                display: inline-block;
+                width: 1%;
+                transform: skewX(-28deg);
+            
+            }
+        
+        } 
+        
+    }
+}

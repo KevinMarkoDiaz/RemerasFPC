@@ -1,0 +1,464 @@
+/*banner iframe video*/
+
+.banner__video{
+    display: flex;
+    background-image: url("/img/Rcolombia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90vw;
+    height: 70vh;
+    margin: 10vh auto;
+}
+
+/*banner 3*/
+
+.banner3{
+    background-image: url("/img/banner3.jpg");
+    width: 100vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*escudos*/
+
+.ContenedorListaEscudos{
+    border: 1px solid rgb(223, 223, 223);
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    margin: 7vh 0px;
+
+    .ContenedorListaEscudosul{    
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        
+        .ContenedorListaEscudosli{
+            display: flex;
+            margin: 1.5vh 0px;
+            
+            .ContenedorListaEscudosliImg{
+                display: flex;
+                width: 12vh;
+                height: 12vh;     
+            }  
+            
+            .ContenedorListaEscudosliImg:hover{
+                margin-top: 10px;
+                transition: 0.2s;
+            }
+        }
+    }        
+}
+
+
+/*esc animado fpc*/
+
+.animacionFpc{
+    margin: 3vh 4vw;
+    width: 92vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+
+    .animacionFpc h4{
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+        width: 1px;
+        color: #fff;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    .animacionFpc img {
+        height: 15vh;
+        width: auto;
+        animation-name: FPC ;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }       
+}
+
+/*banner inferior*/
+.bannerflex3{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    text-decoration: none;
+    overflow:hidden;
+
+    .bannerInferior{
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        text-decoration: none;
+        overflow:hidden;
+    }
+    .bannerInferiorContenedor{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        text-decoration: none;
+        overflow:hidden;
+
+        @each $team in IgC, IgM, IgN, IgA {
+
+            .bannerInferior#{$team}{
+
+                background-image: url("/img/#{$team}.jpg");
+                flex: 1;
+                background-size: cover;
+                background-position-x: center;
+                text-decoration: none;
+                transition: cubic-bezier();
+                    -webkit-transition:all .9s ease; /* Safari y Chrome */
+                    -moz-transition:all .9s ease; /* Firefox */
+                    -o-transition:all .9s ease; /* IE 9 */
+                    -ms-transition:all .9s ease; /* Opera */
+                    width:100%;
+
+                .bannerInferiorColor{
+                    background-color:rgba(42, 56, 59, 0.7) ;
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    h4{
+                        color: #fff;
+                        font-family: 'Anton', sans-serif;
+                        font-weight: 700;
+                    } 
+                }
+                
+
+                a{                    
+                    text-decoration: none;
+                }
+
+            }
+
+            .bannerInferior#{$team}:hover {
+
+                -webkit-transform:scale(1.15);
+                -moz-transform:scale(1.15);
+                -ms-transform:scale(1.15);
+                -o-transform:scale(1.15);
+                transform:scale(1.15);
+            }            
+        }
+    }   
+}
+
+/*esc animado fpc*/
+
+.animacionFpc{
+    margin: 3vh 4vw;
+    width: 92vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+
+    h4{
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+        width: 1px;
+        color: #fff;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 1.3rem;
+    }
+     
+    
+    img {
+        height: 15vh;
+        width: auto;
+        animation-name: FPC ;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        font-size: 1.3rem;
+    }
+
+}
+
+
+
+   
+
+
+
+@keyframes FPC {
+    
+    0%{
+        transform: rotateZ(0deg) ;
+    } 
+    
+    
+  
+    100%{
+        transform: rotateZ(360deg) ;
+    } 
+}
+
+.animacionFpc:hover img{
+
+    transform: translate(5vw, 0px) ;
+    transition: 2s;
+    overflow: hidden;
+}
+.animacionFpc:hover h4{
+    width: 70vw;
+    display: flex;
+    color: #000;
+    transition: 2s;
+    font-size: 1.3rem;
+    font-family: 'Anton', sans-serif;
+
+
+}
+
+@media only screen and (max-width:  425px)  {
+  
+/*banner video*/
+.banner__video{
+
+    display: none;
+
+}
+
+/*escudos*/
+.ContenedorListaEscudos{
+    border: 1px solid rgb(223, 223, 223);
+    width: 100vw;
+    height: auto;
+    display: flex;
+   
+    
+    
+
+
+    .ContenedorListaEscudosul{    
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0px;
+        padding: 0px;
+        
+        .ContenedorListaEscudosli{
+            display: flex;
+         //   margin: 1.5vw 0px;
+            
+            .ContenedorListaEscudosliImg{
+                display: flex;
+                width: 12vw;
+                height: 12vw;     
+            }  
+            
+            .ContenedorListaEscudosliImg:hover{
+                margin-top: 10px;
+                transition: 0.2s;
+            }
+        }
+    }        
+}
+/*banner inferior*/
+
+.bannerflex3{
+
+    display: none;
+}
+/*esc animado fpc*/
+
+.animacionFpc{
+    margin: 3vh 4vw;
+    width: 92vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+
+
+    
+    .animacionFpc img {
+        height: 15vh;
+        width: auto;
+        animation-name: FPC ;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }       
+}
+    
+} 
+@media only screen and (min-width:  426px) and(max-width: 768px) {
+  
+    /*escudos*/
+
+.ContenedorListaEscudos{
+    border: 1px solid rgb(223, 223, 223);
+    width: 100vw;
+    height: auto;
+    display: flex;
+    margin: 4vw 0px;
+    padding: 4vw 0px;
+    
+
+
+    .ContenedorListaEscudosul{    
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        
+        .ContenedorListaEscudosli{
+            display: flex;
+            margin: 1.5vw 0px;
+            
+            .ContenedorListaEscudosliImg{
+                display: flex;
+                width: 12vw;
+                height: 12vw;     
+            }  
+            
+            .ContenedorListaEscudosliImg:hover{
+                margin-top: 10px;
+                transition: 0.2s;
+            }
+        }
+    }        
+}
+/*banner inferior*/
+.bannerflex3{
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    text-decoration: none;
+    overflow:hidden;
+
+    .bannerInferior{
+        width: 100vw;
+        height: 25vh;
+        display: flex;
+        text-decoration: none;
+        overflow:hidden;
+    }
+    .bannerInferiorContenedor{
+        height: 25vh;
+        width: 100%;
+        display: flex;
+        text-decoration: none;
+        overflow:hidden;
+
+        @each $team in IgC, IgM, IgN, IgA {
+
+            .bannerInferior#{$team}{
+
+                background-image: url("/img/#{$team}.jpg");
+                flex: 1;
+                background-size: cover;
+                background-position-x: center;
+                text-decoration: none;
+                transition: cubic-bezier();
+                    -webkit-transition:all .9s ease; /* Safari y Chrome */
+                    -moz-transition:all .9s ease; /* Firefox */
+                    -o-transition:all .9s ease; /* IE 9 */
+                    -ms-transition:all .9s ease; /* Opera */
+                    width:100%;
+
+                .bannerInferiorColor{
+                    background-color:rgba(42, 56, 59, 0.7) ;
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    h4{
+                        font-size: 1rem;
+                        color: #fff;
+                        font-family: 'Anton', sans-serif;
+                        font-weight: 500;
+                        justify-content: center;
+                    } 
+                }
+                
+
+                a{                    
+                    text-decoration: none;
+                }
+
+            }
+
+          
+            }            
+        }
+    }   
+
+
+} 
+@media only screen and (min-width: 584px) and(max-width: 768px) {
+  
+/*esc animado fpc*/
+
+.animacionFpc{
+    margin: 3vh 4vw;
+    width: 92vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+
+    .animacionFpc h4{
+      display: none;
+    }
+    
+    .animacionFpc img {
+        height: 15vh;
+        width: auto;
+        animation-name: FPC ;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }       
+}
+
+} 
+@media only screen and (max-width:  1023px)  {
+  
+   /*esc animado fpc*/
+
+.animacionFpc{
+    margin: 3vh 4vw;
+    width: 92vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+    h4{
+        display: none;
+      }
+   
+    
+    img {
+        height: 15vh;
+        width: auto;
+        animation-name: FPC ;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }       
+}
+
+.animacionFpc:hover h4{
+    display: none;
+
+}
+} 
+  

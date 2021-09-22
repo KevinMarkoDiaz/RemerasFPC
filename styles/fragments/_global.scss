@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.titulo{
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    margin: 3vw;
+    font-family:$fuente_principal ;
+    transform: skewX(-20deg);
+    border-bottom: 1px solid #000;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    align-items: center;
+    width: fit-content;
+}
+
+.enlineaFlexibleGridPadre{
+    display: grid;
+    justify-content: center;
+
+}
+
+.enlineaFlexibleGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-areas: 
+        "item item item"
+        "item item item"
+        "item item item"    
+    ;
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 10Vh;
+    grid-row-gap: 10Vh;
+}
+
+.enlineaFlexibleGridItem{
+    border: 1px solid rgb(131, 131, 131);
+    padding: 10%; 
+}
+
+.enlineaFlexible{    
+    display: flex;
+    flex-flow:wrap;
+}
+
+
+.estiloLestraPoppins{
+    font-family: $fuente_secundaria;
+}
+
+.form{
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    .container--form{
+        display: flex;
+        width: 100%;
+        margin-bottom: 3vw;
+        justify-content: space-evenly;
+
+        form {
+            width: 70%;
+        }
+
+        .contactanos--redes{
+            padding: 3vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .contactanos__item{
+                display: flex;
+                font-family: $fuente_secundaria;
+                color: rgb(100, 100, 100);
+                
+                i{
+                    padding: 7px;
+                    font-size: 2rem;
+               }
+               p{
+                   padding: 11px;
+                   margin: 0px;
+                   font-weight: 500;
+               }
+
+            }
+        }
+
+        
+    }
+}
+@media only screen and(max-width: 768px){
+
+    .mapouter{
+        display: none;
+    }
+        
+}
+@media only screen and(max-width: 425px){
+
+    .mapouter{
+        display: none;
+    }
+    .container--form{
+        flex-direction: column;
+       
+    }
+
+    .titulo{
+        padding: 5px 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        display: flex;
+        font-family:$fuente_principal ;
+        transform: skewX(-20deg);
+        border-bottom: 1px solid #000;
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        align-items: center;
+        font-size: 1rem;
+    }
+        
+}
