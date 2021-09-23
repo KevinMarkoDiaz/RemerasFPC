@@ -360,7 +360,7 @@
 
             .bannerInferior#{$team}{
 
-                background-image: url("/img/#{$team}.jpg");
+                background-image: url("../img/#{$team}.jpg");
                 flex: 1;
                 background-size: cover;
                 background-position-x: center;
