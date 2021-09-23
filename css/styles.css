@@ -524,7 +524,7 @@
   /*banner inferior*/
   .bannerflex3 {
     width: 100vw;
-    height: 25vh;
+    height: 22vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -533,7 +533,7 @@
   }
   .bannerflex3 .bannerInferior {
     width: 100vw;
-    height: 25vh;
+    height: 22vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -541,7 +541,7 @@
     overflow: hidden;
   }
   .bannerflex3 .bannerInferiorContenedor {
-    height: 25vh;
+    height: 22vh;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1913,7 +1913,7 @@
   font-weight: 700;
 }
 
-@media only screen and (max-width: 473px) {
+@media only screen and (max-width: 557px) {
   .bodyMain .listadeplegable {
     display: none;
   }
