@@ -101,7 +101,7 @@
 /*banner inferior*/
 .bannerflex3 {
   width: 100vw;
-  height: 25vh;
+  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,7 +111,7 @@
 
 .bannerflex3 .bannerInferior {
   width: 100vw;
-  height: 25vh;
+  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,7 +120,7 @@
 }
 
 .bannerflex3 .bannerInferiorContenedor {
-  height: 25vh;
+  height: 50vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -524,7 +524,7 @@
   /*banner inferior*/
   .bannerflex3 {
     width: 100vw;
-    height: 50vh;
+    height: 25vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -533,7 +533,7 @@
   }
   .bannerflex3 .bannerInferior {
     width: 100vw;
-    height: 50vh;
+    height: 25vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -541,7 +541,7 @@
     overflow: hidden;
   }
   .bannerflex3 .bannerInferiorContenedor {
-    height: 50vh;
+    height: 25vh;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
