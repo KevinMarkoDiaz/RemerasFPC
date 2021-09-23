@@ -524,7 +524,7 @@
   /*banner inferior*/
   .bannerflex3 {
     width: 100vw;
-    height: 25vh;
+    height: 50vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -533,7 +533,7 @@
   }
   .bannerflex3 .bannerInferior {
     width: 100vw;
-    height: 25vh;
+    height: 50vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -541,7 +541,7 @@
     overflow: hidden;
   }
   .bannerflex3 .bannerInferiorContenedor {
-    height: 25vh;
+    height: 50vh;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -550,7 +550,7 @@
     overflow: hidden;
   }
   .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgC {
-    background-image: url("/img/IgC.jpg");
+    background-image: url("../img/IgC.jpg");
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -584,19 +584,19 @@
             align-items: center;
   }
   .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgC .bannerInferiorColor h4 {
-    font-size: 1rem;
     color: #fff;
     font-family: 'Anton', sans-serif;
-    font-weight: 500;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    font-weight: 700;
   }
   .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgC a {
     text-decoration: none;
   }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgC:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
   .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgM {
-    background-image: url("/img/IgM.jpg");
+    background-image: url("../img/IgM.jpg");
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -630,19 +630,19 @@
             align-items: center;
   }
   .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgM .bannerInferiorColor h4 {
-    font-size: 1rem;
     color: #fff;
     font-family: 'Anton', sans-serif;
-    font-weight: 500;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    font-weight: 700;
   }
   .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgM a {
     text-decoration: none;
   }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgM:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
   .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgN {
-    background-image: url("/img/IgN.jpg");
+    background-image: url("../img/IgN.jpg");
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -676,19 +676,19 @@
             align-items: center;
   }
   .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgN .bannerInferiorColor h4 {
-    font-size: 1rem;
     color: #fff;
     font-family: 'Anton', sans-serif;
-    font-weight: 500;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    font-weight: 700;
   }
   .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgN a {
     text-decoration: none;
   }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgN:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
   .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgA {
-    background-image: url("/img/IgA.jpg");
+    background-image: url("../img/IgA.jpg");
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -722,20 +722,17 @@
             align-items: center;
   }
   .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgA .bannerInferiorColor h4 {
-    font-size: 1rem;
     color: #fff;
     font-family: 'Anton', sans-serif;
-    font-weight: 500;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    font-weight: 700;
   }
   .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgA a {
     text-decoration: none;
   }
-}
-
-@media only screen and (min-width: 584px) and (max-width: 768px) {
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorIgA:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
   /*esc animado fpc*/
   .animacionFpc {
     margin: 3vh 4vw;
@@ -1916,7 +1913,7 @@
   font-weight: 700;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 473px) {
   .bodyMain .listadeplegable {
     display: none;
   }
