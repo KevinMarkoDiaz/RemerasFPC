@@ -337,20 +337,20 @@
 /*banner inferior*/
 .bannerflex3{
     width: 100vw;
-    height: 25vh;
+    height: 50vh;
     display: flex;
     text-decoration: none;
     overflow:hidden;
 
     .bannerInferior{
         width: 100vw;
-        height: 25vh;
+        height: 50vh;
         display: flex;
         text-decoration: none;
         overflow:hidden;
     }
     .bannerInferiorContenedor{
-        height: 25vh;
+        height: 50vh;
         width: 100%;
         display: flex;
         text-decoration: none;
@@ -381,11 +381,9 @@
                     align-items: center;
 
                     h4{
-                        font-size: 1rem;
                         color: #fff;
                         font-family: 'Anton', sans-serif;
-                        font-weight: 500;
-                        justify-content: center;
+                        font-weight: 700;
                     } 
                 }
                 
@@ -396,10 +394,18 @@
 
             }
 
-          
+            .bannerInferior#{$team}:hover {
+
+                -webkit-transform:scale(1.15);
+                -moz-transform:scale(1.15);
+                -ms-transform:scale(1.15);
+                -o-transform:scale(1.15);
+                transform:scale(1.15);
             }            
         }
     }   
+}
+
   
 /*esc animado fpc*/
 
