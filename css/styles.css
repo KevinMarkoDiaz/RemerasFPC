@@ -1357,7 +1357,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-image: url("/img/logolig.jpg");
+    background-image: url("../img/logolig.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1754,7 +1754,6 @@
     font-size: 1rem;
   }
   .masVendidosContenedor .masVendidosContenedorHijoImg {
-    border: 1px solid #dfdfdf;
     margin: 1vw;
     width: 95vw;
   }
@@ -1823,7 +1822,6 @@
     color: #555555;
   }
   .masVendidosContenedor .masVendidosContenedorHijoImg {
-    border: 1px solid #dfdfdf;
     margin: 1vw;
     width: 40vw;
   }
